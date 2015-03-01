@@ -1,0 +1,146 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DivCore"=.\DivCore\DivCore.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DivEngine"=.\DivEngine\DivEngine.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivGraph"=.\DivGraph\DivGraph.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivShell"=.\DivShell\DivShell.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivEngine
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivUserInterface"=.\DivUserInterface\DivUserInterface.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Terrain"=.\Terrain\Terrain.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivEngine
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Times of War"=".\Times of War\Times of War.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivEngine
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Terrain
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+
