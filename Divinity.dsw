@@ -1,0 +1,155 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "D3DDev"=".\D3DDev\D3DDev.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivCore"=".\DivCore\DivCore.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "DivGraph"=".\DivGraph\DivGraph.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivNet"=".\DivNet\DivNet.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name divsock
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivShell"=".\DivShell\DivShell.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivUserInterface
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "DivUserInterface"=".\DivUserInterface\DivUserInterface.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Times of War"=".\Times of War\Times of War.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DivGraph
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivCore
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivUserInterface
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name DivNet
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name divsock
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "divsock"=".\DivNet\divsock\divsock.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,4 @@
+LIBRARY D3DDev
+EXPORTS
+GetDevice
+GetFactory
