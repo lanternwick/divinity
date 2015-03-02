@@ -1,0 +1,6 @@
+LIBRARY TimesOfWar
+EXPORTS
+Game
+DestroyGame
+Network
+DestroyNet
