@@ -1,0 +1,167 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# WARNING: DO NOT EDIT OR DELETE THIS WORKSPACE FILE!
+
+###############################################################################
+
+Project: "DScript"=.\DScript\DScript.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Divinity"=.\Divinity.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name UI
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Package
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Effects"=.\Effects\Effects.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UI
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Geometry"=.\Geometry\Geometry.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "Package"=.\Package\Package.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "Sound"=.\Sound\Sound.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "System"=.\System\System.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "UI"=.\UI\UI.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "UIDemo"=.\UIDemo\UIDemo.dsp - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name DScript
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Package
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name System
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name UI
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Effects
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name Geometry
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

@@ -1,0 +1,7 @@
+LIBRARY UIDemo
+EXPORTS
+InitMod
+RenderScene
+UpdateScene
+DestroyMod
+Splash

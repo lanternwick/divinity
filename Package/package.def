@@ -1,0 +1,12 @@
+LIBRARY package
+EXPORTS
+OpenPackage
+NewPackage
+AddFileToPackage
+ExtractFile
+ExtractFileByName
+DeleteFileFromPackage
+DeleteFileByName
+ClosePackage
+PackageIsOpen
+EnumFiles
